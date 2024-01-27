@@ -483,9 +483,7 @@ input[type=file]::file-selector-button {
     .footer{
       border-radius: 3rem 0 0 0;  
     }
-    form .set-1 .inp-1, .inp-2, .inp-3, .inp-4, .inp-5, .inp-6{  
-        margin-left: 4rem;
-    }
+    
     .inp-1 {
         margin-bottom: 0.5rem;
         margin-left: 4rem;
@@ -496,16 +494,49 @@ input[type=file]::file-selector-button {
     .inp-6 {
         width: 220px;
     }
-    .btn-2 {
-        margin-left: 6rem;
+    .inp-1-1 {
+        margin-bottom: 0.5rem;
+        margin-left: 4rem;
     }
-    
+    .inp-3-3 {
+        margin-bottom: 0.5rem;
+    }
+    .inp-6-6 {
+        width: 220px;
+    }
+    .about-text{
+        text-align: center;
+    }
+    .btn-2 {
+        margin-left: 0rem;
+    }
+    form .set-1 .inp-1, .inp-2, .inp-3, .inp-4, .inp-5, .inp-6{  
+        margin-left: 4rem;
+    }
     .head-sec p {
         font-size: 0.6rem;
     }
     .set-3 .textarea {
         width: 200px;
         text-align: center;
-        margin-left: 4rem;
+        margin-left: 0rem;
+    }
+    
+}
+
+@media (max-width:720px){
+    .head-sec p{
+        font-size: 0.6rem;
+        
+    }
+    .inp-5{
+        width: 210px;
+    }
+    
+    form .set-1 .inp-1, .inp-2, .inp-3, .inp-4, .inp-5, .inp-6{  
+        margin-left: 0rem;
+    }
+    .inp-1 {
+        margin-left: 0rem;
     }
 }
